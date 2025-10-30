@@ -1,0 +1,215 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My Portfolio | Hitesh</title>
+    <style>
+      
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f8f9fa;
+        color: #333;
+      }
+
+      h1, h2 {
+        text-align: center;
+        color: #222;
+      }
+
+      #hero {
+        background: linear-gradient(135deg, #007bff, #00b4d8);
+        color: white;
+        text-align: center;
+        padding: 80px 20px;
+      }
+
+      #hero p {
+        font-size: 18px;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      section {
+        padding: 40px 20px;
+      }
+
+      img {
+        display: block;
+        margin: 20px auto;
+        border-radius: 50%;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+      }
+
+      li {
+        margin: 20px 0;
+      }
+
+      article {
+        background: #fff;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      table {
+        margin: 20px auto;
+        border-collapse: collapse;
+        width: 60%;
+        background: #fff;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      }
+
+      th, td {
+        padding: 12px;
+        border: 1px solid #ccc;
+        text-align: center;
+      }
+
+      th {
+        background-color: #007bff;
+        color: white;
+      }
+
+      form {
+        max-width: 500px;
+        margin: 0 auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      }
+
+      form div {
+        margin-bottom: 15px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      input, textarea {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+
+      button {
+        display: block;
+        width: 100%;
+        background-color: #007bff;
+        color: white;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+
+      footer {
+        text-align: center;
+        background: #222;
+        color: white;
+        padding: 10px;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Hero Section -->
+    <section id="hero">
+      <h1>WELCOME TO MY PORTFOLIO</h1>
+      <h1>I'm Hitesh</h1>
+      <p>I'm a passionate <u>web developer</u> creating innovative digital experiences. Let's build something amazing together!</p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="https://previews.123rf.com/images/yupiramos/yupiramos2002/yupiramos200212381/139678536-face-young-man-in-frame-circular-avatar-character-icon-vector-illustration-design.jpg" alt="Hitesh's Photo" width="150" height="150">
+      <p style="text-align:center; max-width:600px; margin:0 auto;">Hello! I'm Hitesh, a web developer with a knack for crafting beautiful and functional websites that bring ideas to life.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <article>
+            <h3>E-Commerce Site</h3>
+            <p>A responsive online store built with HTML, CSS, and JavaScript for seamless shopping.</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h3>Weather App</h3>
+            <p>A real-time weather application using API integration and modern UI/UX principles.</p>
+          </article>
+        </li>
+        <li>
+          <article>
+            <h3>Blog Platform</h3>
+            <p>A dynamic blogging site with user authentication and content management features.</p>
+          </article>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Proficiency Level</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>HTML</td><td>Intermediate</td></tr>
+          <tr><td>CSS</td><td>Intermediate</td></tr>
+          <tr><td>JavaScript</td><td>Intermediate</td></tr>
+          <tr><td>React</td><td>Beginner</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required placeholder="Enter your full name">
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required placeholder="Enter your email address">
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Tell me about your project..."></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Hitesh. All rights reserved.</p>
+    </footer>
+  </body>
+  </html>
